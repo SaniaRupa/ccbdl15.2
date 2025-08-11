@@ -1,0 +1,144 @@
+/* Common css */
+body{
+    font-family: "Roboto Serif", sans-serif;
+    overflow-x: hidden;
+    margin-top: 56px;
+    background-color: #f9f9f9;
+}
+h1{
+  color: #000;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+}
+h2{
+  color: #000;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+}
+h3{
+  color: #0253ed;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+h4{
+  color: #000000;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+}
+p{
+  color: #55555a;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.collapse ul li{
+  padding-left: 10px;
+}
+ul li{
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 50px;
+  padding-left: 50px;
+}
+.button{
+  width: auto;
+  background-color: #0253ed;
+  color: #ffffff;
+  border-radius: 50px; 
+}
+.button:hover{
+  background-color: #000;
+  color: #ffffff;
+}
+/* all sections css */
+/* nav */
+.navbar.scrolled {
+  background-color: #1841e5;
+}
+.nav-item a:hover{
+  color: #000 !important;
+}
+.container .logo:hover{
+  color: #000 !important;
+}
+.navbar .cv{
+  background-color: #ffff;
+  color: #0253ed;
+}
+.navbar .cv:hover{
+  background-color: #000000;
+  color: #ffffff;
+}
+/* hero */
+header {
+  background: linear-gradient(135deg, #0253ed 0%, #6900c7 100%);
+}
+header .title{
+  font-size: 60px;
+  line-height: 78px;
+}
+.hero-p{
+  font-weight: 500;
+}
+.hero{
+  width: 200px;
+  border-radius: 10px;
+  display: inline-block;
+}
+.hero-img{
+  width: 550px;
+}
+/* about */
+.grid{
+  background-color: #0253ed;
+}
+.about-icon i{
+  font-size: 60px;
+  color: #0253ed;
+}
+.about-img img{
+  display: block;
+  height: auto;
+  border-radius: 20px;
+}
+/* features */
+.features-img{
+  /* width: 420px; */
+}
+.features-icon i{
+    font-size: 40px;
+    color: #0253ed;
+    align-items: top;
+}
+.fa-circle-check{
+  color: #0253ed;
+  font-size: 20px;
+}
+/* pricing */
+.fixed-col {
+  width: 30%;
+}
+.pp{
+  background-color: #0253ed;
+}
+.price button:hover{
+  color: #ffffff !important;
+  background-color: #000 !important;
+}
+
+small{
+  font-size: medium;
+  color: #55555a;
+}
+/* footer */
+.foot-link a:hover{
+  color: #0253ed !important;
+}
+.btn-hovar button:hover{
+  background-color: #000000 !important;
+  color: #ffffff !important;
+}
